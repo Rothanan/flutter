@@ -1391,7 +1391,7 @@ class RenderViewport extends RenderViewportBase<SliverPhysicalContainerParentDat
               ]);
             }
             if (!constraints.hasBoundedWidth) {
-              throw FlutterError(
+                throw FlutterError(
                 'Vertical viewport was given unbounded width.\n'
                 'Viewports expand in the cross axis to fill their container and '
                 'constrain their children to match their extent in the cross axis. '
